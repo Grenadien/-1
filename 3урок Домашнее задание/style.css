@@ -1,0 +1,12 @@
+.title{
+    font-size:48px ;
+    text-align: center;
+}
+
+.text{
+    color: white;
+    text-align: left;
+}
+body{
+   background: green; 
+}
