@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var salary, net_salary, ratio; 
+        salary=prompt('Введите вашу зарплату, чтобы получить ее с учетом налоговых вычетов');
+        if (salary> 100000){
+            ratio = 0.45
+        }
+        else{
+            ratio= 0.35
+        }
+        tax= salary * ratio;
+        net_salary=salary-tax;
+        alert(net_salary)
+
+    </script>
+</body>
+</html>
